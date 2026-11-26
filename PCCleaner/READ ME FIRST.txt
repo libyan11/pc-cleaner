@@ -34,7 +34,12 @@ IF WINDOWS BLOCKS THE FILES:
     Right-click the ZIP > Properties > tick "Unblock" > OK, then
     right-click > Extract All..., and run START HERE.bat from the extracted folder.
   - "Windows protected your PC": click "More info", then "Run anyway".
-  - "Smart App Control blocked...": unblock the ZIP as above BEFORE extracting it.
+  - "Smart App Control blocked...": delete the extracted folder, unblock the ZIP as
+    above, and extract it again. No Unblock box? Paste this into PowerShell, then
+    extract again:
+        Unblock-File "$env:USERPROFILE\Downloads\pc-cleaner-main.zip"
+    Still blocked? Right-click Start > Terminal (Admin) and paste:
+        powershell -ExecutionPolicy Bypass -File (Get-ChildItem "$env:USERPROFILE\Downloads" -Recurse -Filter PCCleaner.ps1 | Select-Object -First 1).FullName
     Do NOT switch Smart App Control off - once off, Windows can't turn it back
     on without a reinstall.
 
