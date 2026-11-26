@@ -11,6 +11,8 @@ At the end you get a colour-coded report of what it found, fixed and freed.
 
 It uses only what is built into Windows: Microsoft Defender, Microsoft's Malicious Software Removal Tool, DISM and Disk Clean-up. Nothing is downloaded or installed.
 
+**Prefer to do it by hand?** [FIX-POPUPS-GUIDE.md](FIX-POPUPS-GUIDE.md) is a step-by-step guide with the exact clicks and commands. It also covers when to reset Windows instead, and what to do about your Microsoft account and other devices.
+
 ## Quick start
 
 1. **Download it:** on GitHub click **Code > Download ZIP** (or `git clone` this repo).

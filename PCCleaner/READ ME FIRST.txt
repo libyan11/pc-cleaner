@@ -24,6 +24,9 @@ FAKE "VIRUS" / McAfee / Norton POP-UPS:
   A full-screen page with a phone number to call is a SCAM - never call it.
   Press Ctrl+Shift+Esc and end the browser in Task Manager.
 
+PREFER TO DO IT BY HAND? FIX-POPUPS-GUIDE.md (one folder up) has every step
+and command, plus when to reset Windows and what to do about your Microsoft account.
+
 STILL A MESS? Option 7 explains how to reset Windows to like-new.
 
 IF WINDOWS BLOCKS THE FILES:
