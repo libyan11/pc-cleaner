@@ -1,0 +1,43 @@
+PC CLEANER - READ ME FIRST
+==========================
+
+TO START:  double-click  "START HERE.bat"
+
+  Do NOT double-click PCCleaner.ps1. Windows deliberately shows "Open with" for
+  .ps1 files so scripts can't run by accident. START HERE.bat runs it for you.
+
+THEN:
+  1. Pick an option from the menu. 1 (scan + fix + clean) is the normal one,
+     and it also gets rid of fake virus pop-ups and spam notifications.
+  2. Click YES when Windows asks for administrator permission.
+     A new window opens.
+  3. Answer the questions at the START (type y or n, or press Enter for the
+     suggested answer). After that it runs by itself - you can leave it.
+  4. Near the end, any uninstaller you said yes to opens - follow its steps.
+  5. The report opens in your browser at the end. Every report is kept in
+     the Reports folder next to this file.
+
+FAKE "VIRUS" / McAfee / Norton POP-UPS:
+  These come from websites allowed to send notifications, expired security
+  trials, or adware browser extensions - not usually a real virus. Option 1
+  finds and fixes all of them (let it close the browser when it asks).
+  A full-screen page with a phone number to call is a SCAM - never call it.
+  Press Ctrl+Shift+Esc and end the browser in Task Manager.
+
+STILL A MESS? Option 7 explains how to reset Windows to like-new.
+
+IF WINDOWS BLOCKS THE FILES:
+  - Downloaded from GitHub as a ZIP? Don't run anything from inside the ZIP.
+    Right-click the ZIP > Properties > tick "Unblock" > OK, then
+    right-click > Extract All..., and run START HERE.bat from the extracted folder.
+  - "Windows protected your PC": click "More info", then "Run anyway".
+  - "Smart App Control blocked...": unblock the ZIP as above BEFORE extracting it.
+    Do NOT switch Smart App Control off - once off, Windows can't turn it back
+    on without a reinstall.
+
+NEVER TOUCHED:
+  Your documents, photos, music, videos, desktop, saved passwords, cookies and
+  logins, browsing history and bookmarks. Your Downloads folder is only touched
+  in option 6, only for files you pick, and they go to the Recycle Bin.
+
+TO REMOVE PC CLEANER: delete this folder. It installs nothing anywhere else.
