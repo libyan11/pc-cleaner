@@ -1,0 +1,7 @@
+# Reports contain details of the PC they ran on - never commit them
+Reports/
+**/Reports/
+
+# Build output / logs
+*.zip
+*.log
