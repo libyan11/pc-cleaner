@@ -80,7 +80,7 @@ function Remove-FolderContents([string]$Path) {
         }
     }
     $after = Get-FolderSize $Path
-    return [math]::Max(0, $before - $after)
+    return [math]::Max(0.0, [double]($before - $after))
 }
 function Format-Bytes([double]$n) {
     if ($n -ge 1GB) { return ('{0:N2} GB' -f ($n / 1GB)) }
